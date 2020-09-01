@@ -4,4 +4,6 @@ This is a simple single page application, created with Blazor webassembly and de
 
 ## Deployment
 
-To deploy the app, use `dotnet publish -c Release` and then copy the generated files to the `docs/` folder with `cp ./bin/Release/netstandard2.1/publish/wwwroot/* ./docs`.
+The deployment is automatically done in the github action defined in `.github/workflows/main.yml`.
+
+Manual deployment for testing can be done using `dotnet publish -c Release -o release`.
